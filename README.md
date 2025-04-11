@@ -2,9 +2,11 @@
 
 一个基于 Chainlit 构建的智能聊天应用模版，支持多个大语言模型，提供流畅的对话体验。
 
+![应用界面截图](Screenshot.png)
+
 ## 功能特点
 
-- 🤖 支持配置多个大语言模型接口(<thike>或reasoning_content)
+- 🤖 支持配置多个大语言模型接口(\<thike\> \</thike\>或reasoning_content)
   - DeepSeek
   - QWQ
 - 💬 流畅的对话界面
