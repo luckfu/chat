@@ -1,0 +1,24 @@
+{
+    "starters": [
+        {
+            "label": "早上的计划",
+            "message": "您能否帮助我创建个性化的每天早上的计划，以帮助提高我一整天的工作效率？首先询问我目前的习惯以及早上哪些活动让我精力充沛.",
+            "icon": "/public/idea.svg"
+        },
+        {
+            "label": "解释超导体",
+            "message": "给我通俗易懂的解释超导体，就像像我只有五岁。",
+            "icon": "/public/learn.svg"
+        },
+        {
+            "label": "用于每日电子邮件报告的 Python 脚本",
+            "message": "用 Python 编写一个脚本，自动发送每日电子邮件报告，并指导我如何设置。",
+            "icon": "/public/terminal.svg"
+        },
+        {
+            "label": "邀请朋友参加婚礼的短信",
+            "message": "写一条短信邀请朋友下个月作为我的婚礼伴侣。我想保持简短随意，并提供拒绝的余地",
+            "icon": "/public/write.svg"
+        }
+    ]
+}
