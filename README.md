@@ -6,7 +6,7 @@
 
 ## 功能特点
 
-- 🤖 支持配置多个大语言模型接口(\<thike\> \</thike\>或reasoning_content)
+- 🤖 支持配置多个大语言模型接口(\<think\> \</think\>或reasoning_content)
   - DeepSeek
   - QWQ
 - 💬 流畅的对话界面
