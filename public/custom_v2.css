@@ -1,0 +1,25 @@
+/* 
+   这是 clean 版本的 CSS，主要样式已移至 script.js 动态注入管理。
+   保留此文件是为了兼容 config.toml 配置。
+*/
+
+/* 仅隐藏水印 */
+.watermark {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+    height: 0px !important;
+    width: 0px !important;
+    overflow: hidden !important;
+}
+
+/* 输入框占位符 */
+#chat-input:empty::before {
+    content: '问我任何问题...';
+}
+
+/* 确保新建按钮显示 (以防万一有默认样式隐藏) */
+#new-chat-button {
+    display: flex !important;
+}

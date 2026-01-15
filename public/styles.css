@@ -1,8 +1,10 @@
+/* 隐藏不需要的按钮 */
 #theme-toggle,
 #new-chat-button {
   display: none !important;
 }
 
+/* 隐藏水印 */
 .watermark {
   display: none !important;
   visibility: hidden !important;
@@ -13,6 +15,33 @@
   overflow: hidden !important;
 }
 
+/* 输入框占位符 */
 #chat-input:empty::before {
-  content: 'Ask anything';
+  content: '问我任何问题...';
+}
+
+/* 
+   ===== 侧边栏宽度调整 ===== 
+   默认侧边栏大约 260px，这里我们强制加宽到 350px 
+*/
+
+/* 1. 针对 MUI Drawer 组件 (Material UI) */
+[class*="MuiDrawer-paper"] {
+  width: 350px !important;
+  /* 增加宽度 */
+}
+
+/* 2. 针对 Chainlit 内部的历史记录容器 */
+[data-testid="thread-history"] {
+  width: 100% !important;
+  /* 填满父容器 */
+}
+
+/* 3. 针对桌面布局的侧边栏容器 (Flex布局中的第一项) */
+/* 注意：这个选择器比较宽泛，可能会随版本变化，但通常有效 */
+@media (min-width: 600px) {
+  #root>div>div>div:first-child {
+    min-width: 350px !important;
+    flex-basis: 350px !important;
+  }
 }

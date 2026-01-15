@@ -1,3 +1,7 @@
 python-dotenv
 chainlit
 openai
+aiosqlite
+bcrypt
+aiohttp
+langchain-openai
